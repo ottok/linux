@@ -16,7 +16,7 @@ header files are marked with VP4 or VP5 as part of the symbol name.
 
 The cameras appear externally as three sets of registers. Setting register
 values is the only way to control the camera.  Some settings are
-interdependant, such as the sequence required to power up the camera. I will
+interdependent, such as the sequence required to power up the camera. I will
 try to make note of all of these cases.
 
 The register sets are called blocks.  Block 0 is the system block.  This

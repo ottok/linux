@@ -1022,7 +1022,7 @@ passing them down to the device. There are various conditions when the queue is
 unplugged (to open up the flow again), either through a scheduled task or
 could be on demand. For example wait_on_buffer sets the unplugging going
 through sync_buffer() running blk_run_address_space(mapping). Or the caller
-can do it explicity through blk_unplug(bdev). So in the read case,
+can do it explicitly through blk_unplug(bdev). So in the read case,
 the queue gets explicitly unplugged as part of waiting for completion on that
 buffer. For page driven IO, the address space ->sync_page() takes care of
 doing the blk_run_address_space().

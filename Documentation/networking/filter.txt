@@ -1147,7 +1147,7 @@ operation will set the register state to 'unknown_value' and it won't be
 available for direct packet access.
 Operation 'r3 += rX' may overflow and become less than original skb->data,
 therefore the verifier has to prevent that. So it tracks the number of
-upper zero bits in all 'uknown_value' registers, so when it sees
+upper zero bits in all 'unknown_value' registers, so when it sees
 'r3 += rX' instruction and rX is more than 16-bit value, it will error as:
 "cannot add integer value with N upper zero bits to ptr_to_packet"
 Ex. after insn 'r4 = *(u8 *)(r3 +12)' (insn #7 above) the state of r4 is

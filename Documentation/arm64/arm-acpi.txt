@@ -167,7 +167,7 @@ hardware reduced mode must be set to zero.
 
 For the ACPI core to operate properly, and in turn provide the information
 the kernel needs to configure devices, it expects to find the following
-tables (all section numbers refer to the ACPI 5.1 specfication):
+tables (all section numbers refer to the ACPI 5.1 specification):
 
     -- RSDP (Root System Description Pointer), section 5.2.5
 

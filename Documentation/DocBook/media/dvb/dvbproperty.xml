@@ -20,7 +20,7 @@
     added originally_enabled to provide support for DVB-S2), because the old
     API has a very limited support to new standards and new hardware. This
     section describes the new and recommended way to set the frontend, with
-    suppports all digital TV delivery systems.</para>
+    supports all digital TV delivery systems.</para>
 
 <para>Example: with the properties based approach, in order to set the tuner
     to a DVB-C channel at 651 kHz, modulated with 256-QAM, FEC 3/4 and symbol

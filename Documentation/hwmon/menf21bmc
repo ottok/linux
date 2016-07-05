@@ -4,7 +4,7 @@ Kernel driver menf21bmc_hwmon
 Supported chips:
 	* MEN 14F021P00
 	  Prefix: 'menf21bmc_hwmon'
-	  Adresses scanned: -
+	  Addresses scanned: -
 
 Author: Andreas Werner <andreas.werner@men.de>
 

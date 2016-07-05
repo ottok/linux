@@ -240,7 +240,7 @@ applications must set the array to zero.</entry>
     </table>
 
     <table pgwide="1" frame="none" id="parm-caps">
-      <title>Streaming Parameters Capabilites</title>
+      <title>Streaming Parameters Capabilities</title>
       <tgroup cols="3">
 	&cs-def;
 	<tbody valign="top">

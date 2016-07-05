@@ -617,7 +617,7 @@ that are parsed outside of the cifs vfs such as nosuid.
 Version 1.03
 ------------
 Connect to server when port number override not specified, and tcp port
-unitialized.  Reset search to restart at correct file when kernel routine
+uninitialized.  Reset search to restart at correct file when kernel routine
 filldir returns error during large directory searches (readdir). 
 
 Version 1.02

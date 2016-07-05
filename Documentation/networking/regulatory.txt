@@ -145,7 +145,7 @@ kmalloc() a structure big enough to hold your regulatory domain
 structure and you should then fill it with your data. Finally you simply
 call regulatory_hint() with the regulatory domain structure in it.
 
-Bellow is a simple example, with a regulatory domain cached using the stack.
+Below is a simple example, with a regulatory domain cached using the stack.
 Your implementation may vary (read EEPROM cache instead, for example).
 
 Example cache of some regulatory domain
